@@ -2,10 +2,11 @@
   "buildCommand": "npm install && npm run build",
   "outputDirectory": "dist",
   "framework": "react",
-  "env": {
-    "BUYPIX_API_KEY": {
-      "description": "Sua chave de API BuyPix (comece com bpx_live_)",
-      "required": true
+  {
+  "buildCommand": "npm install && npm run build",
+  "outputDirectory": "dist",
+  "framework": "react"
+}
     },
     "WEBHOOK_URL": {
       "description": "URL do webhook (será gerada automaticamente pelo Vercel)",
