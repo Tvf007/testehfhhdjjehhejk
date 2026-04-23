@@ -1,20 +1,5 @@
 {
   "buildCommand": "npm install && npm run build",
   "outputDirectory": "dist",
-  "framework": "react",
-  {
-  "buildCommand": "npm install && npm run build",
-  "outputDirectory": "dist",
   "framework": "react"
-}
-    },
-    "WEBHOOK_URL": {
-      "description": "URL do webhook (será gerada automaticamente pelo Vercel)",
-      "required": false
-    },
-    "BUYPIX_WEBHOOK_SECRET": {
-      "description": "Secret para validar webhooks (opcional)",
-      "required": false
-    }
-  }
 }
